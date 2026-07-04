@@ -1,0 +1,8 @@
+[package]
+name = "alsh-std"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "alsh_std"
+path = "src/lib.rs"
