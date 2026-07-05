@@ -1,5 +1,6 @@
 # ALSH Standard Library
 
-This repository ~~will contain a list of~~ contains the implementation of all the ALSH standard library functions.
-- There's raw_list.txt, it's main purpose is to be looped through by the preprocessor, so `@stdlib` works
-- The implementation is in ./impl/
+This repository contains the implementation of the ALSH standard library.
+- The implementation lives under [impl](impl/).
+- The top-level build entry point is [build.sh](build.sh).
+- Use `./build.sh build` to build the crate and `./build.sh test` to run tests.
